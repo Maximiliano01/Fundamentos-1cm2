@@ -12,30 +12,36 @@
 
 //implementacion de funciones
 
-int main() {
+int main(int argc, char** argv) {
     //declarar e imiciar variables
     //variable (programacion]: espacio de memoria se manipula con un identidad (identificador]
     //declarando una variable
-    int x1;
-    int x2;
-    int x3;
-    int cuadrado;
-    cuadrado=0;
-    cuadrado= ((14.1-4)/2)*((14.1-4)/2);
- 
-    x1=0;
-    x1=(6.18/5.00)*cuadrado;
-   
-    printf("el valor de x1 es de: %i\n", x1 );//ejecutar
+    float x1=2;
+    float x2=4;
+    float x3=3;
+    float x4=6;
     
-    x2=(8.9*34)/17;
-            
-            printf("el valor de x2 es de: %i\n", x2 );//ejecutar
-            
-            x3=8-7;
-            
-            printf("el valor de x3 es de: %i\n", x3 );//ejecutar
-
-    return (EXIT_SUCCESS);
+    if (x1 == x2 == x3 == x4){
+        printf("todos son iguales");
+    }else{
+      if (x1 < x2, x3, x4){
+        if (x2 < x1, x3, x4 ){
+        if (x3 < x1, x2, x4){
+        if (x4 < x1, x2, x3){
+        printf("x4 es el mayor");
+    }else{
+      printf("Esto es imposible :o");  
+    }
+    }else{
+      printf("x3 es mayor");  
+    }
+    }else{
+      printf("x2 es el mayor");  
+    }
+    }else{
+      printf("x1 es mayor");  
+    } 
+    }
+     
+    return (0);
 }
-

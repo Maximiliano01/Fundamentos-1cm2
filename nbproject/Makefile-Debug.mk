@@ -36,7 +36,10 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/condicionales.o \
-	${OBJECTDIR}/main.o
+	${OBJECTDIR}/main.o \
+	${OBJECTDIR}/mayor\ de\ 3\ numeros.o \
+	${OBJECTDIR}/mayor\ de\ 4\ numeros.o \
+	${OBJECTDIR}/operaciones.o
 
 
 # C Compiler Flags
@@ -72,6 +75,23 @@ ${OBJECTDIR}/main.o: main.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.c
+
+.NO_PARALLEL:${OBJECTDIR}/mayor\ de\ 3\ numeros.o
+${OBJECTDIR}/mayor\ de\ 3\ numeros.o: mayor\ de\ 3\ numeros.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/mayor\ de\ 3\ numeros.o mayor\ de\ 3\ numeros.c
+
+.NO_PARALLEL:${OBJECTDIR}/mayor\ de\ 4\ numeros.o
+${OBJECTDIR}/mayor\ de\ 4\ numeros.o: mayor\ de\ 4\ numeros.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/mayor\ de\ 4\ numeros.o mayor\ de\ 4\ numeros.c
+
+${OBJECTDIR}/operaciones.o: operaciones.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/operaciones.o operaciones.c
 
 # Subprojects
 .build-subprojects:

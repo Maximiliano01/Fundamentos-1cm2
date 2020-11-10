@@ -36,7 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/condicionales.o \
-	${OBJECTDIR}/main.o \
+	${OBJECTDIR}/fibonacci\ while.o \
 	${OBJECTDIR}/mayor\ de\ 3\ numeros.o \
 	${OBJECTDIR}/mayor\ de\ 4\ numeros.o \
 	${OBJECTDIR}/operaciones.o
@@ -71,10 +71,11 @@ ${OBJECTDIR}/condicionales.o: condicionales.c
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/condicionales.o condicionales.c
 
-${OBJECTDIR}/main.o: main.c
+.NO_PARALLEL:${OBJECTDIR}/fibonacci\ while.o
+${OBJECTDIR}/fibonacci\ while.o: fibonacci\ while.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/fibonacci\ while.o fibonacci\ while.c
 
 .NO_PARALLEL:${OBJECTDIR}/mayor\ de\ 3\ numeros.o
 ${OBJECTDIR}/mayor\ de\ 3\ numeros.o: mayor\ de\ 3\ numeros.c

@@ -39,7 +39,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/fibonacci\ while.o \
 	${OBJECTDIR}/mayor\ de\ 3\ numeros.o \
 	${OBJECTDIR}/mayor\ de\ 4\ numeros.o \
-	${OBJECTDIR}/operaciones.o
+	${OBJECTDIR}/operaciones.o \
+	${OBJECTDIR}/while\ tablas.o
 
 
 # C Compiler Flags
@@ -93,6 +94,12 @@ ${OBJECTDIR}/operaciones.o: operaciones.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/operaciones.o operaciones.c
+
+.NO_PARALLEL:${OBJECTDIR}/while\ tablas.o
+${OBJECTDIR}/while\ tablas.o: while\ tablas.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/while\ tablas.o while\ tablas.c
 
 # Subprojects
 .build-subprojects:

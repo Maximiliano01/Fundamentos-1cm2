@@ -35,6 +35,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/arreglos\ 1.o \
+	${OBJECTDIR}/arreglos\ 2.o \
 	${OBJECTDIR}/condicionales.o \
 	${OBJECTDIR}/fibonacci\ while.o \
 	${OBJECTDIR}/for\ tablas.o \
@@ -67,6 +69,18 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/max.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/max ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+.NO_PARALLEL:${OBJECTDIR}/arreglos\ 1.o
+${OBJECTDIR}/arreglos\ 1.o: arreglos\ 1.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/arreglos\ 1.o arreglos\ 1.c
+
+.NO_PARALLEL:${OBJECTDIR}/arreglos\ 2.o
+${OBJECTDIR}/arreglos\ 2.o: arreglos\ 2.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/arreglos\ 2.o arreglos\ 2.c
 
 ${OBJECTDIR}/condicionales.o: condicionales.c
 	${MKDIR} -p ${OBJECTDIR}

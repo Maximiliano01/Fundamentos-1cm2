@@ -12,6 +12,8 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>arreglos 1.c</itemPath>
+      <itemPath>arreglos 2.c</itemPath>
       <itemPath>condicionales.c</itemPath>
       <itemPath>fibonacci while.c</itemPath>
       <itemPath>for tablas.c</itemPath>
@@ -42,6 +44,10 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="arreglos 1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglos 2.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="condicionales.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="fibonacci while.c" ex="false" tool="0" flavor2="0">
@@ -77,6 +83,10 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="arreglos 1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglos 2.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="condicionales.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="fibonacci while.c" ex="false" tool="0" flavor2="0">

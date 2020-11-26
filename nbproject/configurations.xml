@@ -14,12 +14,16 @@
                    projectFiles="true">
       <itemPath>arreglos 1.c</itemPath>
       <itemPath>arreglos 2.c</itemPath>
+      <itemPath>burbuja optimizado.c</itemPath>
       <itemPath>condicionales.c</itemPath>
       <itemPath>fibonacci while.c</itemPath>
       <itemPath>for tablas.c</itemPath>
       <itemPath>mayor de 3 numeros.c</itemPath>
       <itemPath>mayor de 4 numeros.c</itemPath>
+      <itemPath>metodo burbuja.c</itemPath>
+      <itemPath>minimo y maximo.c</itemPath>
       <itemPath>operaciones.c</itemPath>
+      <itemPath>promedio.c</itemPath>
       <itemPath>while tablas.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -48,6 +52,8 @@
       </item>
       <item path="arreglos 2.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="burbuja optimizado.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="condicionales.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="fibonacci while.c" ex="false" tool="0" flavor2="0">
@@ -58,7 +64,13 @@
       </item>
       <item path="mayor de 4 numeros.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="metodo burbuja.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="minimo y maximo.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="operaciones.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="promedio.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="while tablas.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -87,6 +99,8 @@
       </item>
       <item path="arreglos 2.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="burbuja optimizado.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="condicionales.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="fibonacci while.c" ex="false" tool="0" flavor2="0">
@@ -97,7 +111,13 @@
       </item>
       <item path="mayor de 4 numeros.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="metodo burbuja.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="minimo y maximo.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="operaciones.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="promedio.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="while tablas.c" ex="false" tool="0" flavor2="0">
       </item>

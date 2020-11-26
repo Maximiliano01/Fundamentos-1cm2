@@ -37,12 +37,16 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/arreglos\ 1.o \
 	${OBJECTDIR}/arreglos\ 2.o \
+	${OBJECTDIR}/burbuja\ optimizado.o \
 	${OBJECTDIR}/condicionales.o \
 	${OBJECTDIR}/fibonacci\ while.o \
 	${OBJECTDIR}/for\ tablas.o \
 	${OBJECTDIR}/mayor\ de\ 3\ numeros.o \
 	${OBJECTDIR}/mayor\ de\ 4\ numeros.o \
+	${OBJECTDIR}/metodo\ burbuja.o \
+	${OBJECTDIR}/minimo\ y\ maximo.o \
 	${OBJECTDIR}/operaciones.o \
+	${OBJECTDIR}/promedio.o \
 	${OBJECTDIR}/while\ tablas.o
 
 
@@ -82,6 +86,12 @@ ${OBJECTDIR}/arreglos\ 2.o: arreglos\ 2.c
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/arreglos\ 2.o arreglos\ 2.c
 
+.NO_PARALLEL:${OBJECTDIR}/burbuja\ optimizado.o
+${OBJECTDIR}/burbuja\ optimizado.o: burbuja\ optimizado.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/burbuja\ optimizado.o burbuja\ optimizado.c
+
 ${OBJECTDIR}/condicionales.o: condicionales.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
@@ -111,10 +121,27 @@ ${OBJECTDIR}/mayor\ de\ 4\ numeros.o: mayor\ de\ 4\ numeros.c
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/mayor\ de\ 4\ numeros.o mayor\ de\ 4\ numeros.c
 
+.NO_PARALLEL:${OBJECTDIR}/metodo\ burbuja.o
+${OBJECTDIR}/metodo\ burbuja.o: metodo\ burbuja.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/metodo\ burbuja.o metodo\ burbuja.c
+
+.NO_PARALLEL:${OBJECTDIR}/minimo\ y\ maximo.o
+${OBJECTDIR}/minimo\ y\ maximo.o: minimo\ y\ maximo.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/minimo\ y\ maximo.o minimo\ y\ maximo.c
+
 ${OBJECTDIR}/operaciones.o: operaciones.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/operaciones.o operaciones.c
+
+${OBJECTDIR}/promedio.o: promedio.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/promedio.o promedio.c
 
 .NO_PARALLEL:${OBJECTDIR}/while\ tablas.o
 ${OBJECTDIR}/while\ tablas.o: while\ tablas.c

@@ -41,8 +41,10 @@ OBJECTFILES= \
 	${OBJECTDIR}/condicionales.o \
 	${OBJECTDIR}/fibonacci\ while.o \
 	${OBJECTDIR}/for\ tablas.o \
+	${OBJECTDIR}/math.o \
 	${OBJECTDIR}/mayor\ de\ 3\ numeros.o \
 	${OBJECTDIR}/mayor\ de\ 4\ numeros.o \
+	${OBJECTDIR}/menu.o \
 	${OBJECTDIR}/metodo\ burbuja.o \
 	${OBJECTDIR}/minimo\ y\ maximo.o \
 	${OBJECTDIR}/operaciones.o \
@@ -109,6 +111,11 @@ ${OBJECTDIR}/for\ tablas.o: for\ tablas.c
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/for\ tablas.o for\ tablas.c
 
+${OBJECTDIR}/math.o: math.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/math.o math.c
+
 .NO_PARALLEL:${OBJECTDIR}/mayor\ de\ 3\ numeros.o
 ${OBJECTDIR}/mayor\ de\ 3\ numeros.o: mayor\ de\ 3\ numeros.c
 	${MKDIR} -p ${OBJECTDIR}
@@ -120,6 +127,11 @@ ${OBJECTDIR}/mayor\ de\ 4\ numeros.o: mayor\ de\ 4\ numeros.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/mayor\ de\ 4\ numeros.o mayor\ de\ 4\ numeros.c
+
+${OBJECTDIR}/menu.o: menu.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/menu.o menu.c
 
 .NO_PARALLEL:${OBJECTDIR}/metodo\ burbuja.o
 ${OBJECTDIR}/metodo\ burbuja.o: metodo\ burbuja.c

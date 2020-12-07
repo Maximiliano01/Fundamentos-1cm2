@@ -18,8 +18,10 @@
       <itemPath>condicionales.c</itemPath>
       <itemPath>fibonacci while.c</itemPath>
       <itemPath>for tablas.c</itemPath>
+      <itemPath>math.c</itemPath>
       <itemPath>mayor de 3 numeros.c</itemPath>
       <itemPath>mayor de 4 numeros.c</itemPath>
+      <itemPath>menu.c</itemPath>
       <itemPath>metodo burbuja.c</itemPath>
       <itemPath>minimo y maximo.c</itemPath>
       <itemPath>operaciones.c</itemPath>
@@ -60,9 +62,13 @@
       </item>
       <item path="for tablas.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="math.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="mayor de 3 numeros.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="mayor de 4 numeros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menu.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="metodo burbuja.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -107,9 +113,13 @@
       </item>
       <item path="for tablas.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="math.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="mayor de 3 numeros.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="mayor de 4 numeros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menu.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="metodo burbuja.c" ex="false" tool="0" flavor2="0">
       </item>

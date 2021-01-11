@@ -35,6 +35,24 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/20\ ejercicios\ 1-20.o \
+	${OBJECTDIR}/20\ ejercicios\ 10-20.o \
+	${OBJECTDIR}/20\ ejercicios\ 11-20.o \
+	${OBJECTDIR}/20\ ejercicios\ 12-20.o \
+	${OBJECTDIR}/20\ ejercicios\ 13-20.o \
+	${OBJECTDIR}/20\ ejercicios\ 14-20.o \
+	${OBJECTDIR}/20\ ejercicios\ 15-20.o \
+	${OBJECTDIR}/20\ ejercicios\ 16-20.o \
+	${OBJECTDIR}/20\ ejercicios\ 17-20.o \
+	${OBJECTDIR}/20\ ejercicios\ 18-20.o \
+	${OBJECTDIR}/20\ ejercicios\ 2-20.o \
+	${OBJECTDIR}/20\ ejercicios\ 20-20.o \
+	${OBJECTDIR}/20\ ejercicios\ 3-20.o \
+	${OBJECTDIR}/20\ ejercicios\ 4-20.o \
+	${OBJECTDIR}/20\ ejercicios\ 5-20.o \
+	${OBJECTDIR}/20\ ejercicios\ 7-20.o \
+	${OBJECTDIR}/20\ ejercicios\ 8-20.o \
+	${OBJECTDIR}/20\ ejercicios\ 9-20.o \
 	${OBJECTDIR}/arreglos\ 1.o \
 	${OBJECTDIR}/arreglos\ 2.o \
 	${OBJECTDIR}/burbuja\ optimizado.o \
@@ -75,6 +93,114 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/max.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/max ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+.NO_PARALLEL:${OBJECTDIR}/20\ ejercicios\ 1-20.o
+${OBJECTDIR}/20\ ejercicios\ 1-20.o: 20\ ejercicios\ 1-20.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/20\ ejercicios\ 1-20.o 20\ ejercicios\ 1-20.c
+
+.NO_PARALLEL:${OBJECTDIR}/20\ ejercicios\ 10-20.o
+${OBJECTDIR}/20\ ejercicios\ 10-20.o: 20\ ejercicios\ 10-20.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/20\ ejercicios\ 10-20.o 20\ ejercicios\ 10-20.c
+
+.NO_PARALLEL:${OBJECTDIR}/20\ ejercicios\ 11-20.o
+${OBJECTDIR}/20\ ejercicios\ 11-20.o: 20\ ejercicios\ 11-20.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/20\ ejercicios\ 11-20.o 20\ ejercicios\ 11-20.c
+
+.NO_PARALLEL:${OBJECTDIR}/20\ ejercicios\ 12-20.o
+${OBJECTDIR}/20\ ejercicios\ 12-20.o: 20\ ejercicios\ 12-20.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/20\ ejercicios\ 12-20.o 20\ ejercicios\ 12-20.c
+
+.NO_PARALLEL:${OBJECTDIR}/20\ ejercicios\ 13-20.o
+${OBJECTDIR}/20\ ejercicios\ 13-20.o: 20\ ejercicios\ 13-20.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/20\ ejercicios\ 13-20.o 20\ ejercicios\ 13-20.c
+
+.NO_PARALLEL:${OBJECTDIR}/20\ ejercicios\ 14-20.o
+${OBJECTDIR}/20\ ejercicios\ 14-20.o: 20\ ejercicios\ 14-20.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/20\ ejercicios\ 14-20.o 20\ ejercicios\ 14-20.c
+
+.NO_PARALLEL:${OBJECTDIR}/20\ ejercicios\ 15-20.o
+${OBJECTDIR}/20\ ejercicios\ 15-20.o: 20\ ejercicios\ 15-20.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/20\ ejercicios\ 15-20.o 20\ ejercicios\ 15-20.c
+
+.NO_PARALLEL:${OBJECTDIR}/20\ ejercicios\ 16-20.o
+${OBJECTDIR}/20\ ejercicios\ 16-20.o: 20\ ejercicios\ 16-20.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/20\ ejercicios\ 16-20.o 20\ ejercicios\ 16-20.c
+
+.NO_PARALLEL:${OBJECTDIR}/20\ ejercicios\ 17-20.o
+${OBJECTDIR}/20\ ejercicios\ 17-20.o: 20\ ejercicios\ 17-20.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/20\ ejercicios\ 17-20.o 20\ ejercicios\ 17-20.c
+
+.NO_PARALLEL:${OBJECTDIR}/20\ ejercicios\ 18-20.o
+${OBJECTDIR}/20\ ejercicios\ 18-20.o: 20\ ejercicios\ 18-20.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/20\ ejercicios\ 18-20.o 20\ ejercicios\ 18-20.c
+
+.NO_PARALLEL:${OBJECTDIR}/20\ ejercicios\ 2-20.o
+${OBJECTDIR}/20\ ejercicios\ 2-20.o: 20\ ejercicios\ 2-20.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/20\ ejercicios\ 2-20.o 20\ ejercicios\ 2-20.c
+
+.NO_PARALLEL:${OBJECTDIR}/20\ ejercicios\ 20-20.o
+${OBJECTDIR}/20\ ejercicios\ 20-20.o: 20\ ejercicios\ 20-20.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/20\ ejercicios\ 20-20.o 20\ ejercicios\ 20-20.c
+
+.NO_PARALLEL:${OBJECTDIR}/20\ ejercicios\ 3-20.o
+${OBJECTDIR}/20\ ejercicios\ 3-20.o: 20\ ejercicios\ 3-20.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/20\ ejercicios\ 3-20.o 20\ ejercicios\ 3-20.c
+
+.NO_PARALLEL:${OBJECTDIR}/20\ ejercicios\ 4-20.o
+${OBJECTDIR}/20\ ejercicios\ 4-20.o: 20\ ejercicios\ 4-20.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/20\ ejercicios\ 4-20.o 20\ ejercicios\ 4-20.c
+
+.NO_PARALLEL:${OBJECTDIR}/20\ ejercicios\ 5-20.o
+${OBJECTDIR}/20\ ejercicios\ 5-20.o: 20\ ejercicios\ 5-20.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/20\ ejercicios\ 5-20.o 20\ ejercicios\ 5-20.c
+
+.NO_PARALLEL:${OBJECTDIR}/20\ ejercicios\ 7-20.o
+${OBJECTDIR}/20\ ejercicios\ 7-20.o: 20\ ejercicios\ 7-20.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/20\ ejercicios\ 7-20.o 20\ ejercicios\ 7-20.c
+
+.NO_PARALLEL:${OBJECTDIR}/20\ ejercicios\ 8-20.o
+${OBJECTDIR}/20\ ejercicios\ 8-20.o: 20\ ejercicios\ 8-20.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/20\ ejercicios\ 8-20.o 20\ ejercicios\ 8-20.c
+
+.NO_PARALLEL:${OBJECTDIR}/20\ ejercicios\ 9-20.o
+${OBJECTDIR}/20\ ejercicios\ 9-20.o: 20\ ejercicios\ 9-20.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/20\ ejercicios\ 9-20.o 20\ ejercicios\ 9-20.c
 
 .NO_PARALLEL:${OBJECTDIR}/arreglos\ 1.o
 ${OBJECTDIR}/arreglos\ 1.o: arreglos\ 1.c

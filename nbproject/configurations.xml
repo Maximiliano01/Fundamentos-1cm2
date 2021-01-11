@@ -12,6 +12,24 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>20 ejercicios 1-20.c</itemPath>
+      <itemPath>20 ejercicios 10-20.c</itemPath>
+      <itemPath>20 ejercicios 11-20.c</itemPath>
+      <itemPath>20 ejercicios 12-20.c</itemPath>
+      <itemPath>20 ejercicios 13-20.c</itemPath>
+      <itemPath>20 ejercicios 14-20.c</itemPath>
+      <itemPath>20 ejercicios 15-20.c</itemPath>
+      <itemPath>20 ejercicios 16-20.c</itemPath>
+      <itemPath>20 ejercicios 17-20.c</itemPath>
+      <itemPath>20 ejercicios 18-20.c</itemPath>
+      <itemPath>20 ejercicios 2-20.c</itemPath>
+      <itemPath>20 ejercicios 20-20.c</itemPath>
+      <itemPath>20 ejercicios 3-20.c</itemPath>
+      <itemPath>20 ejercicios 4-20.c</itemPath>
+      <itemPath>20 ejercicios 5-20.c</itemPath>
+      <itemPath>20 ejercicios 7-20.c</itemPath>
+      <itemPath>20 ejercicios 8-20.c</itemPath>
+      <itemPath>20 ejercicios 9-20.c</itemPath>
       <itemPath>arreglos 1.c</itemPath>
       <itemPath>arreglos 2.c</itemPath>
       <itemPath>burbuja optimizado.c</itemPath>
@@ -50,6 +68,42 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="20 ejercicios 1-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 10-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 11-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 12-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 13-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 14-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 15-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 16-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 17-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 18-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 2-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 20-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 3-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 4-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 5-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 7-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 8-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 9-20.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="arreglos 1.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="arreglos 2.c" ex="false" tool="0" flavor2="0">
@@ -101,6 +155,42 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="20 ejercicios 1-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 10-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 11-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 12-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 13-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 14-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 15-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 16-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 17-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 18-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 2-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 20-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 3-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 4-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 5-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 7-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 8-20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20 ejercicios 9-20.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="arreglos 1.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="arreglos 2.c" ex="false" tool="0" flavor2="0">

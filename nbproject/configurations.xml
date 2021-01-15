@@ -34,8 +34,10 @@
       <itemPath>arreglos 2.c</itemPath>
       <itemPath>burbuja optimizado.c</itemPath>
       <itemPath>condicionales.c</itemPath>
+      <itemPath>contadores prueba.c</itemPath>
       <itemPath>fibonacci while.c</itemPath>
       <itemPath>for tablas.c</itemPath>
+      <itemPath>lector de letras en una palabra con contadores.c</itemPath>
       <itemPath>math.c</itemPath>
       <itemPath>mayor de 3 numeros.c</itemPath>
       <itemPath>mayor de 4 numeros.c</itemPath>
@@ -112,9 +114,16 @@
       </item>
       <item path="condicionales.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="contadores prueba.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="fibonacci while.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="for tablas.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lector de letras en una palabra con contadores.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
       <item path="math.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -199,9 +208,16 @@
       </item>
       <item path="condicionales.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="contadores prueba.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="fibonacci while.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="for tablas.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lector de letras en una palabra con contadores.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
       <item path="math.c" ex="false" tool="0" flavor2="0">
       </item>

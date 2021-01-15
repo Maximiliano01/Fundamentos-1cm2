@@ -57,8 +57,10 @@ OBJECTFILES= \
 	${OBJECTDIR}/arreglos\ 2.o \
 	${OBJECTDIR}/burbuja\ optimizado.o \
 	${OBJECTDIR}/condicionales.o \
+	${OBJECTDIR}/contadores\ prueba.o \
 	${OBJECTDIR}/fibonacci\ while.o \
 	${OBJECTDIR}/for\ tablas.o \
+	${OBJECTDIR}/lector\ de\ letras\ en\ una\ palabra\ con\ contadores.o \
 	${OBJECTDIR}/math.o \
 	${OBJECTDIR}/mayor\ de\ 3\ numeros.o \
 	${OBJECTDIR}/mayor\ de\ 4\ numeros.o \
@@ -225,6 +227,12 @@ ${OBJECTDIR}/condicionales.o: condicionales.c
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/condicionales.o condicionales.c
 
+.NO_PARALLEL:${OBJECTDIR}/contadores\ prueba.o
+${OBJECTDIR}/contadores\ prueba.o: contadores\ prueba.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/contadores\ prueba.o contadores\ prueba.c
+
 .NO_PARALLEL:${OBJECTDIR}/fibonacci\ while.o
 ${OBJECTDIR}/fibonacci\ while.o: fibonacci\ while.c
 	${MKDIR} -p ${OBJECTDIR}
@@ -236,6 +244,12 @@ ${OBJECTDIR}/for\ tablas.o: for\ tablas.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/for\ tablas.o for\ tablas.c
+
+.NO_PARALLEL:${OBJECTDIR}/lector\ de\ letras\ en\ una\ palabra\ con\ contadores.o
+${OBJECTDIR}/lector\ de\ letras\ en\ una\ palabra\ con\ contadores.o: lector\ de\ letras\ en\ una\ palabra\ con\ contadores.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/lector\ de\ letras\ en\ una\ palabra\ con\ contadores.o lector\ de\ letras\ en\ una\ palabra\ con\ contadores.c
 
 ${OBJECTDIR}/math.o: math.c
 	${MKDIR} -p ${OBJECTDIR}

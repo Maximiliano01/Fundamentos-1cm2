@@ -69,6 +69,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/minimo\ y\ maximo.o \
 	${OBJECTDIR}/operaciones.o \
 	${OBJECTDIR}/promedio.o \
+	${OBJECTDIR}/prueba.o \
 	${OBJECTDIR}/while\ tablas.o
 
 
@@ -294,6 +295,11 @@ ${OBJECTDIR}/promedio.o: promedio.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/promedio.o promedio.c
+
+${OBJECTDIR}/prueba.o: prueba.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/prueba.o prueba.c
 
 .NO_PARALLEL:${OBJECTDIR}/while\ tablas.o
 ${OBJECTDIR}/while\ tablas.o: while\ tablas.c

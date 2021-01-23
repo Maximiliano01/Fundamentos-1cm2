@@ -46,6 +46,7 @@
       <itemPath>minimo y maximo.c</itemPath>
       <itemPath>operaciones.c</itemPath>
       <itemPath>promedio.c</itemPath>
+      <itemPath>prueba.c</itemPath>
       <itemPath>while tablas.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -141,6 +142,8 @@
       </item>
       <item path="promedio.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="prueba.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="while tablas.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
@@ -234,6 +237,8 @@
       <item path="operaciones.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="promedio.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="prueba.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="while tablas.c" ex="false" tool="0" flavor2="0">
       </item>

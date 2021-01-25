@@ -35,8 +35,11 @@
       <itemPath>burbuja optimizado.c</itemPath>
       <itemPath>condicionales.c</itemPath>
       <itemPath>contadores prueba.c</itemPath>
+      <itemPath>factorial.c</itemPath>
+      <itemPath>fibonacci recursividad.c</itemPath>
       <itemPath>fibonacci while.c</itemPath>
       <itemPath>for tablas.c</itemPath>
+      <itemPath>hanoi.c</itemPath>
       <itemPath>lector de letras en una palabra con contadores.c</itemPath>
       <itemPath>math.c</itemPath>
       <itemPath>mayor de 3 numeros.c</itemPath>
@@ -45,7 +48,7 @@
       <itemPath>metodo burbuja.c</itemPath>
       <itemPath>minimo y maximo.c</itemPath>
       <itemPath>operaciones.c</itemPath>
-      <itemPath>promedio.c</itemPath>
+      <itemPath>promedio con archivos.c</itemPath>
       <itemPath>prueba.c</itemPath>
       <itemPath>while tablas.c</itemPath>
     </logicalFolder>
@@ -117,9 +120,15 @@
       </item>
       <item path="contadores prueba.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="factorial.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="fibonacci recursividad.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="fibonacci while.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="for tablas.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="hanoi.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="lector de letras en una palabra con contadores.c"
             ex="false"
@@ -140,7 +149,7 @@
       </item>
       <item path="operaciones.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="promedio.c" ex="false" tool="0" flavor2="0">
+      <item path="promedio con archivos.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="prueba.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -213,9 +222,15 @@
       </item>
       <item path="contadores prueba.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="factorial.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="fibonacci recursividad.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="fibonacci while.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="for tablas.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="hanoi.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="lector de letras en una palabra con contadores.c"
             ex="false"
@@ -236,7 +251,7 @@
       </item>
       <item path="operaciones.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="promedio.c" ex="false" tool="0" flavor2="0">
+      <item path="promedio con archivos.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="prueba.c" ex="false" tool="0" flavor2="0">
       </item>

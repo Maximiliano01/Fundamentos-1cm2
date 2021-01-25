@@ -58,8 +58,11 @@ OBJECTFILES= \
 	${OBJECTDIR}/burbuja\ optimizado.o \
 	${OBJECTDIR}/condicionales.o \
 	${OBJECTDIR}/contadores\ prueba.o \
+	${OBJECTDIR}/factorial.o \
+	${OBJECTDIR}/fibonacci\ recursividad.o \
 	${OBJECTDIR}/fibonacci\ while.o \
 	${OBJECTDIR}/for\ tablas.o \
+	${OBJECTDIR}/hanoi.o \
 	${OBJECTDIR}/lector\ de\ letras\ en\ una\ palabra\ con\ contadores.o \
 	${OBJECTDIR}/math.o \
 	${OBJECTDIR}/mayor\ de\ 3\ numeros.o \
@@ -68,7 +71,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/metodo\ burbuja.o \
 	${OBJECTDIR}/minimo\ y\ maximo.o \
 	${OBJECTDIR}/operaciones.o \
-	${OBJECTDIR}/promedio.o \
+	${OBJECTDIR}/promedio\ con\ archivos.o \
 	${OBJECTDIR}/prueba.o \
 	${OBJECTDIR}/while\ tablas.o
 
@@ -234,6 +237,17 @@ ${OBJECTDIR}/contadores\ prueba.o: contadores\ prueba.c
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/contadores\ prueba.o contadores\ prueba.c
 
+${OBJECTDIR}/factorial.o: factorial.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/factorial.o factorial.c
+
+.NO_PARALLEL:${OBJECTDIR}/fibonacci\ recursividad.o
+${OBJECTDIR}/fibonacci\ recursividad.o: fibonacci\ recursividad.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/fibonacci\ recursividad.o fibonacci\ recursividad.c
+
 .NO_PARALLEL:${OBJECTDIR}/fibonacci\ while.o
 ${OBJECTDIR}/fibonacci\ while.o: fibonacci\ while.c
 	${MKDIR} -p ${OBJECTDIR}
@@ -245,6 +259,11 @@ ${OBJECTDIR}/for\ tablas.o: for\ tablas.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/for\ tablas.o for\ tablas.c
+
+${OBJECTDIR}/hanoi.o: hanoi.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/hanoi.o hanoi.c
 
 .NO_PARALLEL:${OBJECTDIR}/lector\ de\ letras\ en\ una\ palabra\ con\ contadores.o
 ${OBJECTDIR}/lector\ de\ letras\ en\ una\ palabra\ con\ contadores.o: lector\ de\ letras\ en\ una\ palabra\ con\ contadores.c
@@ -291,10 +310,11 @@ ${OBJECTDIR}/operaciones.o: operaciones.c
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/operaciones.o operaciones.c
 
-${OBJECTDIR}/promedio.o: promedio.c
+.NO_PARALLEL:${OBJECTDIR}/promedio\ con\ archivos.o
+${OBJECTDIR}/promedio\ con\ archivos.o: promedio\ con\ archivos.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/promedio.o promedio.c
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/promedio\ con\ archivos.o promedio\ con\ archivos.c
 
 ${OBJECTDIR}/prueba.o: prueba.c
 	${MKDIR} -p ${OBJECTDIR}
